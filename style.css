@@ -1,9 +1,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgrey;
+    background-color: #757F9A;
 }
 h3{
-    color: bisque;
+    color: rgba(183, 232, 4, 0.85);
 }
 p{
     font-size: 24px;

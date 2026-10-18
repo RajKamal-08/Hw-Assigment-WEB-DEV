@@ -6,19 +6,49 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Isometra&display=swap" rel="stylesheet">
+
 
 <style>
-    p{
-        columns: green;
+    p::first-letter{
+        color: rgb(136, 18, 162);
+        font-size: 30px;
+    }
+    #header{
+        background-color: #ACBB78;
         font-size: 20px;
+        padding: 20px;
+        
+
+    }
+    a:hover{
+        background-color: #2F80ED;
+        font-size: 20px;
+    }
+    .content{
+        border: 5px solid rgb(118, 91, 225);
+        padding: 20px;
+        margin:20px 25px;
+        font-family: "Isometra", serif;
+  font-weight: 400;
+  font-style: normal;
+
+    }
+    [title~="flower"]{
+        border: 5px solid yellow;
     }
 </style>
 
 <body>
-    <header style="color:brown; font-size: 20px;">
+     
+    <header id="header">
         <h1>My College</h1>
         <p>WELCOME TO THE WEBSITE
     </header>
+    <img src="https://t4.ftcdn.net/jpg/14/48/64/05/360_F_1448640558_IbmCKTlZeFUB8ic0uSPMYhw4HnscyEv3.jpg" alt="flower" width="300" height="200" title="flower">
+
     
     <nav>
         <ul>
@@ -27,7 +57,7 @@
             <li><a href="/CONTACT">CONTACT</a></li>
         </ul>
         </nav>
-        <article>
+        <article class="content">
             <h3>Hi-Tech Institute of Engineering and Technology </h3>
             <p>Hi-Tech Institute of Engineering and Technology (HIET) is an engineering and technology institute located in Ghaziabad, Uttar Pradesh. The institute focuses on providing students with technical education, practical knowledge, and opportunities to develop skills needed for their future careers.</p>
             <h4>Campus Life</h4>
